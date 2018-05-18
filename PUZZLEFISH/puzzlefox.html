@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puzzle</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="puzzle.css">
+
+</head>
+<body>
+	
+	 <div class="container">
+		<div class="row justify-content-center logo" style="margin: 20px">
+	    <a href="http://www.jay30.com/WNM617/Final/LogIn/landing.html"><img src="logo.png" img id="logo"></a>
+		</div>
+  </div>
+	
+	<br>
+	
+	<div class="container">
+		<div class="row justify-content-center Puzzlefish">
+			<img src="PuzzleFish.png">
+		</div>
+  </div>
+    
+		<br>
+
+<div class="container">
+	
+    		<div class="row justify-content-center">
+<ul id="sortable" class="pull-center">	
+	
+  <li class="ui-state-focus ui-sortable-handle"><img id="01">
+	  <img src="5-01.jpg" width="110" height="110" alt=""></li>
+  <li class="ui-state-focus ui-sortable-handle"><img id="08">
+	  <img src="8-01.jpg" width="110" height="110 "alt=""></li>
+  <li class="ui-state-focus ui-sortable-handle"><img id="10">
+	  <img src="3-01.jpg" width="110" height="110 " alt=""></li>
+  <li class="ui-state-focus ui-sortable-handle"><img id="03">
+	  <img src="6-01.jpg" width="110" height="110 " alt=""></li>
+  <li class="ui-state-focus ui-sortable-handle"><img id="07">
+	  <img src="1-01.jpg" width="110" height="110 " alt=""></li>
+  <li class="ui-state-focus ui-sortable-handle"><img id="02">
+	  <img src="2-01.jpg" width="110" height="110 " alt=""></li>
+  <li class="ui-state-focus ui-sortable-handle"><img id="04">
+	  <img src="9-01.jpg" width="110" height="110 " alt=""></li>
+  <li class="ui-state-focus ui-sortable-handle"><img id="09">
+	  <img src="4-01.jpg" width="110" height="110 " alt=""></li>
+  <li class="ui-state-focus ui-sortable-handle"><img id="11">
+	  <img src="7-01.jpg" width="110" height="110 " alt=""></li>
+  
+    
+</ul> 
+    </div>
+    </div>
+	
+    <br>
+    <br>
+    
+<div class="container">
+		<div class="row justify-content-center playagain">
+			<img src="playagain.png">
+		</div>
+  </div>
+    
+   
+    
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>  
+  <script>
+	  
+  $( function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+    $( ".playagain" ).click(function() {
+          location.reload();
+     });
+   });
+        
+  </script>
+
+    <script
+         src="https://code.jquery.com/jquery-1.12.4.min.js"
+         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+         crossorigin="anonymous"></script>
+       <script
+         src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+         integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+         crossorigin="anonymous"></script>
+       <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54516992-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-54516992-1');
+</script>
+
+
+	</body>
+</html>

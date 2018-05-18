@@ -1,0 +1,86 @@
+html {
+  font-family: Open-Sans, sans-serif;
+  text-align: center;
+  width:100%;
+ background-color:#CE89BB;
+}
+
+body{
+	
+	background-color:#CE89BB;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: 115%; 
+}
+
+
+
+
+h2 {
+  font-size: 2em;
+  margin: 0px 0px 0px 0px;
+  color: #f1f511;
+}
+
+
+h1 {
+  font-size: 3em;
+  margin: 0px 0px 0px 0px;
+}
+
+#question {
+   word-spacing: -6px;
+   letter-spacing: -6px;
+   
+}
+#showMe {
+  color: rgba(255,  255,  255, 0);
+  
+}
+
+#good{
+  color: rgba(234, 70, 70, 0);
+  
+}
+
+.goodjob{
+	color: #f3ff1c;
+	font-size:200%;
+}
+
+#message {
+    color: white;
+}
+
+span {
+   word-spacing: normal;
+   letter-spacing: normal;
+   display: inline-block;
+}
+
+button {
+    background-color:#FFCD6E; /* Lavendar */
+    border: none;
+    color: white;
+    padding: 15px 3px 15px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+    border-radius: 3px;
+    width: 25%;
+    margin: 10px 0px;
+}
+
+#options
+
+#controls {
+}
+
+div {
+   
+  
+  }
+  .starthidden {
+    display: none;
+  }

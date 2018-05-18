@@ -1,0 +1,94 @@
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+
+    </head>
+    
+    <body>
+        <div class="bg">
+            
+
+            
+            <div class="container">
+                
+                <div class="logo row justify-content-center">
+                    
+                        <img src="image/logo.png">
+                    
+                </div>
+                
+            </div>
+                
+            <br>
+            
+            <div class="container">
+                
+                <div class="row justify-content-md-center">
+                    <div class="col-md-10 col-md-offs10et-10 col-sm">
+                        <div role="form" id="signupform">
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" id="form-email" class="form-control " palceholder="Enter Email Address">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" id="form-password" class="form-control" palceholder="Enter Password">
+                            </div>
+                        </div>
+
+                    <br>
+
+                        <input type="submit" id="signup" class="btn-transparent btn-lg btn-block" value="Sign Up" onclick="handleSignUp();">
+
+                        <input type="submit" id="signin" class="btn-transparent btn-lg btn-block" value="Sign In" onclick="handleSignIn();">
+
+                        <input type="submit" id="signout" class="btn-transparent btn-lg btn-block" value="Sign Out" onclick="handleSignOut();">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+       
+        
+
+        
+        
+        
+        <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyDRJrsmb5_Ca09TGgdI_8-Y_BRpDrbtFRo",
+            authDomain: "wnm617-final-86c1b.firebaseapp.com",
+            databaseURL: "https://wnm617-final-86c1b.firebaseio.com",
+            projectId: "wnm617-final-86c1b",
+            storageBucket: "wnm617-final-86c1b.appspot.com",
+            messagingSenderId: "338964371400"
+          };
+          firebase.initializeApp(config);
+        </script>
+        <script src="js/function.js"></script>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118267022-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-118267022-1');
+        </script>
+
+    
+    </body>
+
+
+</html>

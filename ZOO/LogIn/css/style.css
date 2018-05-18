@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    background-image: url(../image/back01.png);
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+    
+    /*
+    background: linear-gradient(to bottom right, red, yellow);
+    background-repeat: no-repeat;
+    background: -webkit-gradient(linear, to bottom right, red, yellow) fixed;
+    */
+}
+
+.bg {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /* The image used */
+    
+
+    /* Full height */
+    margin:auto;
+
+    /* Center and scale the image nicely */
+    
+}
+
+.container {
+    color: white;
+}
+
+
+
+.btn-transparent {
+    background: transparent;
+    color: #F2F2F2;
+	font-family: 'Fredoka One', cursive;
+
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    border: 2px solid #F2F2F2;
+}
+
+.btn-transparent:hover {
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.form-email {
+    text-decoration-color: white;
+	color: #F2F2F2;
+	font-family: 'Fredoka One', cursive;
+}
+
+.link {
+    text-align: center
+	
+}
+
+
